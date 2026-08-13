@@ -1,21 +1,21 @@
 {
   "app": "EZYWORK",
-  "build": 2,
+  "build": 3,
   "entry": "ezywork/gui.py",
   "files": {
     "EZYWORK_실행.bat": {
       "archive_member": "EZYWORK_실행.bat",
-      "archive_sha256": "ad62df1daf60cdf1ac5565ce8eac16bbd279c5a90e1ba56dd4a3f804197c0713",
-      "sha256": "af4dd94e013f257f468fc1ffa5e41b16cf9c8cc4ce2693d3807d08d34d3c7391",
-      "size": 325,
-      "url": "https://github.com/akdamthevillan/EZYWORKS_RELEASE/releases/download/v1.0.0/EZYWORK-1.0.0-delta-001.zip"
+      "archive_sha256": "e88381c8f796bb579c94b2915d3abf1fc7485e8c9505370aa0b54542139c981e",
+      "sha256": "da92bfc802e8be20c95ea8536c3acaf941f7f292b98ba6ba481883e8a5f4b02f",
+      "size": 296,
+      "url": "https://github.com/akdamthevillan/EZYWORKS_RELEASE/releases/download/v1.1.1/EZYWORK-1.1.1-delta-001.zip"
     },
     "app-version.json": {
       "archive_member": "app-version.json",
-      "archive_sha256": "94298c71363606ae2f504e96301c1ff04ec192d652d4a81d75b8a5431e045f8f",
-      "sha256": "4cf15a95b85825be8bddc887271e23f6c215341f8f834ebf8070c1e194122bec",
+      "archive_sha256": "e88381c8f796bb579c94b2915d3abf1fc7485e8c9505370aa0b54542139c981e",
+      "sha256": "5fe6440b29337b46aea97df6b0d8dda9bd492ec48881f3bf9da6fba9c39f3e00",
       "size": 103,
-      "url": "https://github.com/akdamthevillan/EZYWORKS_RELEASE/releases/download/v1.1.0/EZYWORK-1.1.0-delta-001.zip"
+      "url": "https://github.com/akdamthevillan/EZYWORKS_RELEASE/releases/download/v1.1.1/EZYWORK-1.1.1-delta-001.zip"
     },
     "assets/fonts/NanumGothic.otf": {
       "archive_member": "assets/fonts/NanumGothic.otf",
@@ -15986,13 +15986,13 @@
     }
   },
   "full_zip": {
-    "sha256": "a937fe21ff86876c4cdff02b408ce4db2ff961692306367d20a11f97e20167f4",
-    "size": 217422978,
-    "url": "https://github.com/akdamthevillan/EZYWORKS_RELEASE/releases/download/v1.1.0/EZYWORK-1.1.0-windows-x64.zip"
+    "sha256": "c15e45594629abbf5deba4bc20985d9fd5091818b7235874cc7986e294715919",
+    "size": 217422912,
+    "url": "https://github.com/akdamthevillan/EZYWORKS_RELEASE/releases/download/v1.1.1/EZYWORK-1.1.1-windows-x64.zip"
   },
-  "generated_at": "2026-08-13T12:46:01.869339+00:00",
+  "generated_at": "2026-08-13T13:03:42.714412+00:00",
   "message": "",
   "schema": 1,
   "status": "active",
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
