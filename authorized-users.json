@@ -1,14 +1,15 @@
 {
   "schema": 1,
-  "issued_at": "2026-08-22T03:23:56Z",
+  "issued_at": "2026-08-22T04:04:48Z",
   "devices": [
     {
-      "device_id": "CE54AB7F93F78284BEFB71910E0A2688",
-      "install_id": "33520cd1429f4b67aacf8f2e0b6d3d54",
-      "public_key": "8SuMBcNmHTC9gxlnD7dHGLmzS-X7LOYFpYvhgJbCGEk",
+      "device_id": "358BB018B36210F4ABEA30EBFAF7F4CA",
+      "install_id": "237793461774476594be7e3f6d9bf9a8",
+      "public_key": "YB0msszM-8kbtjDVW_MeejQbaSqI7y7ekRe6hHWsuU8",
       "status": "active",
-      "approved_at": "2026-08-22T03:23:56Z"
+      "approved_at": "2026-08-22T04:04:48Z",
+      "display_name": "머렐롯데부산"
     }
   ],
-  "signature": "4M6f5N25-oAbWl6tjJ4z-grTtShqJ5bjuQ3o7QWE5KL-inWLlMEzQfmgvugsKGcat0sC4EnS1hVbGTHpypXYDg"
+  "signature": "cyFOtmXMx2CeOPxiVZpIPVOi1-SchFZlDYnupABd5-4SbPyEiODChPu9X534CcZDLU-9EZhvBQ7l6U3yQ0KnCQ"
 }

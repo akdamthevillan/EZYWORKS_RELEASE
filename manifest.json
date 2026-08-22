@@ -4,6 +4,15 @@
     "build": 10000,
     "version": "1.0.0"
   },
+  "bootstrap_files": [
+    "launcher.py",
+    "ezywork/__init__.py",
+    "ezywork/authorization.py",
+    "ezywork/constants.py",
+    "ezywork/paths.py",
+    "ezywork/updater.py",
+    "assets/authorization_public_key.pem"
+  ],
   "build": 10000,
   "entry": "ezywork/gui.py",
   "files": {
@@ -88,8 +97,8 @@
       "size": 12597
     },
     "ezywork/authorization.py": {
-      "sha256": "a031916c7e4a096baffff1592a5a923a6e59e4cbd9afe8e0fcf2b8470b45139f",
-      "size": 17413
+      "sha256": "4e99960fd1bd42b45f3c404fd028dedf4fd0683be11a5536b7a7c9008eeb4a87",
+      "size": 18523
     },
     "ezywork/background_removal.py": {
       "sha256": "1931c2034f5addf9c82ec2a16b4da8b7eff335156659031841ab3a0fcaa42b8d",
@@ -112,8 +121,8 @@
       "size": 86
     },
     "ezywork/gui.py": {
-      "sha256": "a93028da40ea2e9778ddd5a72c500b5b1ce00dcc3dd4a2af6f1b53ca08449877",
-      "size": 95834
+      "sha256": "3d0b793a4612b6a1cdc9bf3a25a6ac42035479ca23243d6e96825c8b359ede60",
+      "size": 96282
     },
     "ezywork/imaging.py": {
       "sha256": "bf70cf0dc11463204fbbf8ee03ef603cdd89574af83db38dd53d949572f6ccd7",
@@ -176,12 +185,12 @@
       "size": 9385
     },
     "ezywork/updater.py": {
-      "sha256": "67835c4b527e49441d6379907c3e723388e6209ca6745e85e232f6682750080b",
-      "size": 38392
+      "sha256": "3b7cdee6c6f4d7dfcb50fbafbd3909db42c7c707382d308103beb435051aa0d1",
+      "size": 43112
     },
     "launcher.py": {
-      "sha256": "95c453d5bb6a6a62512f2cc5b131c55ef021c023bbd18df56af927f9a1880cac",
-      "size": 11933
+      "sha256": "cfc5bd49017e6725f6b5aeab76e09ae6e5433eb2d5b6fd5ae54c6a7103ce5b61",
+      "size": 13630
     },
     "python/DLLs/_tkinter.pyd": {
       "sha256": "6f7bdc2f60a1795b58ec7015ec262d6b234aa8d0f022185de0f52bac4adab449",
@@ -12423,10 +12432,10 @@
   "full_zip": {
     "github_upload": false,
     "name": "EZYWORK-1.0.0-windows-x64.zip",
-    "sha256": "7ea6a9d2f7c210e585cb4fe274cee81303e3261d60a98f9ef863e13457b86a20",
-    "size": 231891441
+    "sha256": "1c342d33ade931b7da5af175448a1c117f8138babafa0097a434407948a0bf51",
+    "size": 231893305
   },
-  "generated_at": "2026-08-22T03:21:57.237622+00:00",
+  "generated_at": "2026-08-22T03:49:44.316303+00:00",
   "message": "",
   "releases": [],
   "schema": 2,
