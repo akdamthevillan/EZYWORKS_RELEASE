@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "issued_at": "2026-08-22T03:23:56Z",
+  "devices": [
+    {
+      "device_id": "CE54AB7F93F78284BEFB71910E0A2688",
+      "install_id": "33520cd1429f4b67aacf8f2e0b6d3d54",
+      "public_key": "8SuMBcNmHTC9gxlnD7dHGLmzS-X7LOYFpYvhgJbCGEk",
+      "status": "active",
+      "approved_at": "2026-08-22T03:23:56Z"
+    }
+  ],
+  "signature": "4M6f5N25-oAbWl6tjJ4z-grTtShqJ5bjuQ3o7QWE5KL-inWLlMEzQfmgvugsKGcat0sC4EnS1hVbGTHpypXYDg"
+}
