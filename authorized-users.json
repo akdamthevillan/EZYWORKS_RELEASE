@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "issued_at": "2026-08-22T04:06:30Z",
+  "issued_at": "2026-08-22T04:24:00Z",
   "devices": [
     {
-      "device_id": "358BB018B36210F4ABEA30EBFAF7F4CA",
-      "install_id": "237793461774476594be7e3f6d9bf9a8",
-      "public_key": "YB0msszM-8kbtjDVW_MeejQbaSqI7y7ekRe6hHWsuU8",
+      "device_id": "0C29C747C4DE2A3505838DC4E631082B",
+      "install_id": "085bde9cabdb48288af3ade9d0234b3e",
+      "public_key": "zwDTpbg17VdiFsNtCjn_LGui9Kf8VJs4oKce68fg2kI",
       "status": "active",
-      "approved_at": "2026-08-22T04:04:48Z",
-      "display_name": "머렐롯데부산"
+      "approved_at": "2026-08-22T04:24:00Z",
+      "display_name": "롯데부산머렐"
     }
   ],
-  "signature": "rmrfiDuQ0mRupspdRgyQI6RuSnOHE-SHMSNRQIppkevMkoI0wkeAcJZU1LgWbJjufv1vI_OB4O6akqCo4-6_Cw"
+  "signature": "ftumpkPHkWuR4wwOGJonUM8nonCAfa9WjhHdFY9CkHIFHgEnCi0bPnikWlAie2fZOAsm4HP5aLQLz8D2h6H4Dw"
 }
