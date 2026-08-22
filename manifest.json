@@ -97,8 +97,8 @@
       "size": 12597
     },
     "ezywork/authorization.py": {
-      "sha256": "4e99960fd1bd42b45f3c404fd028dedf4fd0683be11a5536b7a7c9008eeb4a87",
-      "size": 18523
+      "sha256": "dbb223dfff49eb19b678c3d9f6020c839e3aab16d76920555ea0c5e9a735b2ca",
+      "size": 20236
     },
     "ezywork/background_removal.py": {
       "sha256": "1931c2034f5addf9c82ec2a16b4da8b7eff335156659031841ab3a0fcaa42b8d",
@@ -12432,10 +12432,10 @@
   "full_zip": {
     "github_upload": false,
     "name": "EZYWORK-1.0.0-windows-x64.zip",
-    "sha256": "1c342d33ade931b7da5af175448a1c117f8138babafa0097a434407948a0bf51",
-    "size": 231893305
+    "sha256": "78f15aa647146d4015ced3534639f39ecba97418290873ddcf4a0283decdbee9",
+    "size": 231893703
   },
-  "generated_at": "2026-08-22T03:49:44.316303+00:00",
+  "generated_at": "2026-08-22T04:23:29.474320+00:00",
   "message": "",
   "releases": [],
   "schema": 2,
