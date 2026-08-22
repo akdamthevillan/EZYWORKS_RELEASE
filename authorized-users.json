@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "issued_at": "2026-08-22T04:04:48Z",
+  "issued_at": "2026-08-22T04:06:30Z",
   "devices": [
     {
       "device_id": "358BB018B36210F4ABEA30EBFAF7F4CA",
@@ -11,5 +11,5 @@
       "display_name": "머렐롯데부산"
     }
   ],
-  "signature": "cyFOtmXMx2CeOPxiVZpIPVOi1-SchFZlDYnupABd5-4SbPyEiODChPu9X534CcZDLU-9EZhvBQ7l6U3yQ0KnCQ"
+  "signature": "rmrfiDuQ0mRupspdRgyQI6RuSnOHE-SHMSNRQIppkevMkoI0wkeAcJZU1LgWbJjufv1vI_OB4O6akqCo4-6_Cw"
 }
