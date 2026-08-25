@@ -1,1 +1,15 @@
-
+{
+  "schema": 1,
+  "issued_at": "2026-08-22T04:24:00Z",
+  "devices": [
+    {
+      "device_id": "0C29C747C4DE2A3505838DC4E631082B",
+      "install_id": "085bde9cabdb48288af3ade9d0234b3e",
+      "public_key": "zwDTpbg17VdiFsNtCjn_LGui9Kf8VJs4oKce68fg2kI",
+      "status": "active",
+      "approved_at": "2026-08-22T04:24:00Z",
+      "display_name": "롯데부산머렐"
+    }
+  ],
+  "signature": "ftumpkPHkWuR4wwOGJonUM8nonCAfa9WjhHdFY9CkHIFHgEnCi0bPnikWlAie2fZOAsm4HP5aLQLz8D2h6H4Dw"
+}
