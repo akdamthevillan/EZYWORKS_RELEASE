@@ -11,9 +11,10 @@
     "ezywork/constants.py",
     "ezywork/paths.py",
     "ezywork/updater.py",
-    "assets/authorization_public_key.pem"
+    "assets/authorization_public_key.pem",
+    "authorization-service.json"
   ],
-  "build": 10000,
+  "build": 10100,
   "entry": "ezywork/gui.py",
   "files": {
     "EZYWORK_실행.bat": {
@@ -21,7 +22,7 @@
       "size": 310
     },
     "app-version.json": {
-      "sha256": "e5e39188bfc1a79ce466d7517425327c97ff69b5b38cf47f1bae120dd263b292",
+      "sha256": "c918487c7c6c1c92855c3060efe492b5083dbbad4911e222e4beeedad0194cea",
       "size": 107
     },
     "assets/authorization_public_key.pem": {
@@ -55,6 +56,10 @@
     "assets/patagonia_logo.png": {
       "sha256": "94cdd5762a6a81ba7c39ae5f5ca8758fd14bd5fed8a5c5eec6c0ec959b3748f4",
       "size": 11686
+    },
+    "authorization-service.json": {
+      "sha256": "0854fbc2ee3b257725794a64d74c74d3471d0c807da5d45f82fe1ba831825db9",
+      "size": 74
     },
     "ezywork/__init__.py": {
       "sha256": "28d32555c9b120a5177e0e82ba2686b8f7429f9cd1e0d5edff0396ac5689adb8",
@@ -97,8 +102,8 @@
       "size": 12597
     },
     "ezywork/authorization.py": {
-      "sha256": "dbb223dfff49eb19b678c3d9f6020c839e3aab16d76920555ea0c5e9a735b2ca",
-      "size": 20236
+      "sha256": "efcf250245cac5976af7d5be087bde746432e499fd83d476d1f30c2af0ad0e5c",
+      "size": 23990
     },
     "ezywork/background_removal.py": {
       "sha256": "1931c2034f5addf9c82ec2a16b4da8b7eff335156659031841ab3a0fcaa42b8d",
@@ -121,16 +126,16 @@
       "size": 86
     },
     "ezywork/gui.py": {
-      "sha256": "3d0b793a4612b6a1cdc9bf3a25a6ac42035479ca23243d6e96825c8b359ede60",
-      "size": 96282
+      "sha256": "914c21f212743041bb984e502170ffa035f8047ae12add4b04f978e6dd03edce",
+      "size": 97210
     },
     "ezywork/imaging.py": {
-      "sha256": "bf70cf0dc11463204fbbf8ee03ef603cdd89574af83db38dd53d949572f6ccd7",
-      "size": 18911
+      "sha256": "4dbf17476b5f2a9f43cbf2b068afa9c3e54bd35728824106246f1ab393dea750",
+      "size": 23846
     },
     "ezywork/job_options.py": {
-      "sha256": "0314d9dfabc451bb6170d16bf53750143319937aaa0ccfc503725ec11f7caf38",
-      "size": 3997
+      "sha256": "2e7374edec6ea7177bbd896c68eaf1d4facd24b5aabe236073ca862aac127a2c",
+      "size": 4151
     },
     "ezywork/marketplaces/__init__.py": {
       "sha256": "3bcf719b1c1860d43db98792d5e38f74cb2a88fd1f230a02be50882f51164d93",
@@ -165,8 +170,8 @@
       "size": 3076
     },
     "ezywork/pipeline.py": {
-      "sha256": "7794307ccb6f175240cf86eb5cba5443d699ebad78009f96b504a1559e6097d0",
-      "size": 28770
+      "sha256": "5fe19c43da925cceaaced4935545375166eac0e2dd32b8f6013a69fc795e2396",
+      "size": 29079
     },
     "ezywork/rendering.py": {
       "sha256": "af2d09dafd1fc85cdf391cd99cf672d612ed437613d3639c6e55ee7eac05e9df",
@@ -185,12 +190,12 @@
       "size": 9385
     },
     "ezywork/updater.py": {
-      "sha256": "3b7cdee6c6f4d7dfcb50fbafbd3909db42c7c707382d308103beb435051aa0d1",
-      "size": 43112
+      "sha256": "e60ae97d6bbd0d366a71cd7fb1654572cc17265f2a1b458c2a384b3b3a36aeea",
+      "size": 43146
     },
     "launcher.py": {
-      "sha256": "cfc5bd49017e6725f6b5aeab76e09ae6e5433eb2d5b6fd5ae54c6a7103ce5b61",
-      "size": 13630
+      "sha256": "3d1922681853eb16c0245d384f9e2a449a8b1b8c7be1cc79de3963e8226158af",
+      "size": 14622
     },
     "python/DLLs/_tkinter.pyd": {
       "sha256": "6f7bdc2f60a1795b58ec7015ec262d6b234aa8d0f022185de0f52bac4adab449",
@@ -12431,14 +12436,67 @@
   },
   "full_zip": {
     "github_upload": false,
-    "name": "EZYWORK-1.0.0-windows-x64.zip",
-    "sha256": "78f15aa647146d4015ced3534639f39ecba97418290873ddcf4a0283decdbee9",
-    "size": 231893703
+    "name": "EZYWORK-1.1.0-windows-x64.zip",
+    "sha256": "a0d95b635815568381ac4484889e42f53d3b171e2bb64a85d11b0b5b98880b33",
+    "size": 231896681
   },
-  "generated_at": "2026-08-22T04:23:29.474320+00:00",
+  "generated_at": "2026-08-25T04:31:54.735836+00:00",
   "message": "",
-  "releases": [],
+  "releases": [
+    {
+      "build": 10100,
+      "from_build": 10000,
+      "packs": [
+        {
+          "members": {
+            "app-version.json": {
+              "sha256": "c918487c7c6c1c92855c3060efe492b5083dbbad4911e222e4beeedad0194cea",
+              "size": 107
+            },
+            "authorization-service.json": {
+              "sha256": "0854fbc2ee3b257725794a64d74c74d3471d0c807da5d45f82fe1ba831825db9",
+              "size": 74
+            },
+            "ezywork/authorization.py": {
+              "sha256": "efcf250245cac5976af7d5be087bde746432e499fd83d476d1f30c2af0ad0e5c",
+              "size": 23990
+            },
+            "ezywork/gui.py": {
+              "sha256": "914c21f212743041bb984e502170ffa035f8047ae12add4b04f978e6dd03edce",
+              "size": 97210
+            },
+            "ezywork/imaging.py": {
+              "sha256": "4dbf17476b5f2a9f43cbf2b068afa9c3e54bd35728824106246f1ab393dea750",
+              "size": 23846
+            },
+            "ezywork/job_options.py": {
+              "sha256": "2e7374edec6ea7177bbd896c68eaf1d4facd24b5aabe236073ca862aac127a2c",
+              "size": 4151
+            },
+            "ezywork/pipeline.py": {
+              "sha256": "5fe19c43da925cceaaced4935545375166eac0e2dd32b8f6013a69fc795e2396",
+              "size": 29079
+            },
+            "ezywork/updater.py": {
+              "sha256": "e60ae97d6bbd0d366a71cd7fb1654572cc17265f2a1b458c2a384b3b3a36aeea",
+              "size": 43146
+            },
+            "launcher.py": {
+              "sha256": "3d1922681853eb16c0245d384f9e2a449a8b1b8c7be1cc79de3963e8226158af",
+              "size": 14622
+            }
+          },
+          "name": "EZYWORK-1.1.0-delta-001.zip",
+          "sha256": "00d4e58d0526851676aedefe4e75feb33f6ef847a54b79cb1e823f5a5907c0ce",
+          "size": 64874,
+          "url": "https://github.com/akdamthevillan/EZYWORKS_RELEASE/releases/download/v1.1.0/EZYWORK-1.1.0-delta-001.zip"
+        }
+      ],
+      "removed": [],
+      "version": "1.1.0"
+    }
+  ],
   "schema": 2,
   "status": "active",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
