@@ -10,12 +10,13 @@
     "ezywork/authorization.py",
     "ezywork/constants.py",
     "ezywork/paths.py",
+    "ezywork/update_manifest.py",
     "ezywork/updater.py",
     "assets/authorization_public_key.pem",
     "assets/update_public_key.pem",
     "authorization-service.json"
   ],
-  "build": 20000,
+  "build": 20001,
   "entry": "ezywork/gui.py",
   "files": {
     "EZYWORK_실행.bat": {
@@ -23,7 +24,7 @@
       "size": 310
     },
     "app-version.json": {
-      "sha256": "f974b93ecdaa74355a8f7913832cad1bae547619f02cbd9ac187c729abfc7274",
+      "sha256": "89cd4a4a5ae1c4b39702dddec6d21092b796a1acb2f1556700d52e2645f0bbcb",
       "size": 107
     },
     "assets/authorization_public_key.pem": {
@@ -207,8 +208,8 @@
       "size": 3199
     },
     "ezywork/updater.py": {
-      "sha256": "18d9730ffcdfba5fe6418f9558b2bf81416fde557567cc9d46259965b002bfa7",
-      "size": 44657
+      "sha256": "3cb25d4c12cb32eb4888b1ba6718a7bc023b8333befc0a70ec00acb3f8cfd559",
+      "size": 44691
     },
     "launcher.py": {
       "sha256": "9e2e37987d3ee9f2be1e315da6bf6e40ea07f935cd4271535a4674802c03dbfd",
@@ -12453,11 +12454,11 @@
   },
   "full_zip": {
     "github_upload": false,
-    "name": "EZYWORK-2.0.0-windows-x64.zip",
-    "sha256": "36d72a1329e8ef07e3091dd29a47f3571880a220e838cc8fd98e4b9ade0cb66a",
-    "size": 231903241
+    "name": "EZYWORK-2.0.1-windows-x64.zip",
+    "sha256": "ff214a2b955ce6f973dec4b8da41a48dcaf8911d8da75924d155fbcdd38ce424",
+    "size": 231903245
   },
-  "generated_at": "2026-08-25T06:05:33.194531+00:00",
+  "generated_at": "2026-08-25T06:29:20.520944+00:00",
   "message": "",
   "releases": [
     {
@@ -12579,11 +12580,35 @@
       ],
       "removed": [],
       "version": "2.0.0"
+    },
+    {
+      "build": 20001,
+      "from_build": 20000,
+      "packs": [
+        {
+          "members": {
+            "app-version.json": {
+              "sha256": "89cd4a4a5ae1c4b39702dddec6d21092b796a1acb2f1556700d52e2645f0bbcb",
+              "size": 107
+            },
+            "ezywork/updater.py": {
+              "sha256": "3cb25d4c12cb32eb4888b1ba6718a7bc023b8333befc0a70ec00acb3f8cfd559",
+              "size": 44691
+            }
+          },
+          "name": "EZYWORK-2.0.1-delta-001.zip",
+          "sha256": "6840b1351989de5b3ce3137960ca0afacb5845f06ac0fb6488ee531f81dc290a",
+          "size": 11518,
+          "url": "https://github.com/akdamthevillan/EZYWORKS_RELEASE/releases/download/v2.0.1/EZYWORK-2.0.1-delta-001.zip"
+        }
+      ],
+      "removed": [],
+      "version": "2.0.1"
     }
   ],
   "schema": 2,
-  "signature": "ONDO5oRdqeDG2C5AFQ65Xe0dDH65m9Fn6CuoBSjruL8-FJ1FEFqLJvzmzPGArHLkSo2yhly_RqmQRbYqo4H-Cg",
+  "signature": "WmQMMd7-ahFDQ2CkEvrk6pYZU1sqqfSefniHvLSsVNDQ4e6QWBqbcEAYJETMB09_qBHqLyX1rUuZ1nyP3pdVAA",
   "signing_key_id": "F19D5F361B144F87",
   "status": "active",
-  "version": "2.0.0"
+  "version": "2.0.1"
 }
