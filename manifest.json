@@ -18,11 +18,11 @@
     "assets/update_public_key.pem",
     "authorization-service.json"
   ],
-  "build": 30102,
+  "build": 30103,
   "entry": "ezywork/gui.py",
   "files": {
     ".ezywork-install.json": {
-      "sha256": "f9edf5b12d68865f10e680f7fe98135c55b19f26c9db885a4c266f43efe7c172",
+      "sha256": "18b8ab7defbb6c98ed89590cde177c6d2ca2e33b9b0cb38d02a8639faf38dce3",
       "size": 97
     },
     "EZYWORK_실행.bat": {
@@ -30,7 +30,7 @@
       "size": 310
     },
     "app-version.json": {
-      "sha256": "d6c57549ba8ae8e7e2cd72b1a6da2b6c7a5be801f2d3cf6bbfd0c715968909a9",
+      "sha256": "022172f9afeaef3ff6d6b128f4d2d0fbf18dd66d35105b3d57e9eeae8c74685a",
       "size": 107
     },
     "assets/authorization_public_key.pem": {
@@ -154,8 +154,8 @@
       "size": 86
     },
     "ezywork/gui.py": {
-      "sha256": "d87ffebf190a9dc9cf5f75f76bfc910cd6b00d58c67c66e1bba598ef1d0fb709",
-      "size": 122692
+      "sha256": "38fe2455f228b4903bad5653813012a0654cce196a557438f5c26511f9748a96",
+      "size": 126787
     },
     "ezywork/imaging.py": {
       "sha256": "91e4e88be65bb8989b0cbcda5a3c9bd8a8dae08fec90b628f2297fb0dedff59c",
@@ -12468,11 +12468,11 @@
   },
   "full_zip": {
     "github_upload": false,
-    "name": "EZYWORK-3.1.2-windows-x64.zip",
-    "sha256": "f3f58ec1ca4f3455e1a452124d362d3097da61dbc480a301400835ce4482b68a",
-    "size": 232029161
+    "name": "EZYWORK-3.1.3-windows-x64.zip",
+    "sha256": "e65f00d930506df5d8d6db4c148db71bb88f188b8157dffd1b65143c5b2f5707",
+    "size": 232030068
   },
-  "generated_at": "2026-08-26T10:22:05.850989+00:00",
+  "generated_at": "2026-08-26T10:34:18.033644+00:00",
   "message": "",
   "releases": [
     {
@@ -12914,11 +12914,39 @@
       ],
       "removed": [],
       "version": "3.1.2"
+    },
+    {
+      "build": 30103,
+      "from_build": 30102,
+      "packs": [
+        {
+          "members": {
+            ".ezywork-install.json": {
+              "sha256": "18b8ab7defbb6c98ed89590cde177c6d2ca2e33b9b0cb38d02a8639faf38dce3",
+              "size": 97
+            },
+            "app-version.json": {
+              "sha256": "022172f9afeaef3ff6d6b128f4d2d0fbf18dd66d35105b3d57e9eeae8c74685a",
+              "size": 107
+            },
+            "ezywork/gui.py": {
+              "sha256": "38fe2455f228b4903bad5653813012a0654cce196a557438f5c26511f9748a96",
+              "size": 126787
+            }
+          },
+          "name": "EZYWORK-3.1.3-delta-001.zip",
+          "sha256": "70762ae6aee325703704883d765b915cbd01b8c2758256127eb217cfa4362b5a",
+          "size": 31626,
+          "url": "https://github.com/akdamthevillan/EZYWORKS_RELEASE/releases/download/v3.1.3/EZYWORK-3.1.3-delta-001.zip"
+        }
+      ],
+      "removed": [],
+      "version": "3.1.3"
     }
   ],
   "schema": 2,
-  "signature": "nFCuc-R98lTr2Ir2x7pvC72glKdo_3MR_af1MrhDqp7ekJtdqBIz48q8jtVMflpeuiBiO1OJ8-kJHe1jUODIDA",
+  "signature": "lKp-quJcyWZuuqh6VpvG9j2O0iftXRK8ouJkqivkgrno_N3Ke-5pp0cS8emUEn7YEaBNZBrjFV5Vq0qSOBueCQ",
   "signing_key_id": "F19D5F361B144F87",
   "status": "active",
-  "version": "3.1.2"
+  "version": "3.1.3"
 }
