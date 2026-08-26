@@ -18,11 +18,11 @@
     "assets/update_public_key.pem",
     "authorization-service.json"
   ],
-  "build": 30100,
+  "build": 30101,
   "entry": "ezywork/gui.py",
   "files": {
     ".ezywork-install.json": {
-      "sha256": "ff74895cbd30951470ae804f79546d7a4c1b7d58301fcaf663ff7d106436374b",
+      "sha256": "e69f83b61091d0231447f53213ef419c2aa4d6e547f414dc5833bf78f6a01c21",
       "size": 97
     },
     "EZYWORK_실행.bat": {
@@ -30,7 +30,7 @@
       "size": 310
     },
     "app-version.json": {
-      "sha256": "04ed7cb19ac2248867da6551df26c5448291dc2833e0d535ad9d7291c7750743",
+      "sha256": "fc7660d91668247276cd5904a60fedb544545fa79a0530df7495afad44aec923",
       "size": 107
     },
     "assets/authorization_public_key.pem": {
@@ -38,8 +38,12 @@
       "size": 113
     },
     "assets/ezywork.ico": {
-      "sha256": "9cba709d9d3f6af9e297cb13df335bf89fd363114d0b7df1c86e936e18f1e3c3",
-      "size": 23132
+      "sha256": "a0c13ef48a3d9de7be4f6ed60d1ec3674363b9906739b94cab074822d81564a4",
+      "size": 53333
+    },
+    "assets/ezywork_cropped_sample.png": {
+      "sha256": "79849ff3c4a676ea647e993804f2a3f175ee526b0e47a3119c02a67fae97c90c",
+      "size": 56395
     },
     "assets/fonts/NanumGothic.otf": {
       "sha256": "7bdf5d68debc8d1c3e682b61410f7c469a707352fc3f784e4da23f1f12370b89",
@@ -150,8 +154,8 @@
       "size": 86
     },
     "ezywork/gui.py": {
-      "sha256": "dda36d4a22114907ea646e0e79ecaffa91870a9ee649cb5c72b7b3f2c125f5ff",
-      "size": 112248
+      "sha256": "76a97b9d05d53b7edc941d46977ff8bcc7e5fc9713bf4ca748370841d9ebc92d",
+      "size": 113867
     },
     "ezywork/imaging.py": {
       "sha256": "91e4e88be65bb8989b0cbcda5a3c9bd8a8dae08fec90b628f2297fb0dedff59c",
@@ -12464,11 +12468,11 @@
   },
   "full_zip": {
     "github_upload": false,
-    "name": "EZYWORK-3.1.0-windows-x64.zip",
-    "sha256": "4ea441720310dea093db1adc9750a27ec14e50a4f5a3c0a76f4cbaa78330f219",
-    "size": 231939039
+    "name": "EZYWORK-3.1.1-windows-x64.zip",
+    "sha256": "4a7edbf4bed53455f7e7f38522073441322c989638c7c77960c84adca83bfb1f",
+    "size": 232026338
   },
-  "generated_at": "2026-08-26T08:19:40.484866+00:00",
+  "generated_at": "2026-08-26T09:03:17.263793+00:00",
   "message": "",
   "releases": [
     {
@@ -12838,11 +12842,47 @@
       ],
       "removed": [],
       "version": "3.1.0"
+    },
+    {
+      "build": 30101,
+      "from_build": 30100,
+      "packs": [
+        {
+          "members": {
+            ".ezywork-install.json": {
+              "sha256": "e69f83b61091d0231447f53213ef419c2aa4d6e547f414dc5833bf78f6a01c21",
+              "size": 97
+            },
+            "app-version.json": {
+              "sha256": "fc7660d91668247276cd5904a60fedb544545fa79a0530df7495afad44aec923",
+              "size": 107
+            },
+            "assets/ezywork.ico": {
+              "sha256": "a0c13ef48a3d9de7be4f6ed60d1ec3674363b9906739b94cab074822d81564a4",
+              "size": 53333
+            },
+            "assets/ezywork_cropped_sample.png": {
+              "sha256": "79849ff3c4a676ea647e993804f2a3f175ee526b0e47a3119c02a67fae97c90c",
+              "size": 56395
+            },
+            "ezywork/gui.py": {
+              "sha256": "76a97b9d05d53b7edc941d46977ff8bcc7e5fc9713bf4ca748370841d9ebc92d",
+              "size": 113867
+            }
+          },
+          "name": "EZYWORK-3.1.1-delta-001.zip",
+          "sha256": "0445a19860142af64874207af1fa64ee1bc64a9080d74d84dd119a2c648206cf",
+          "size": 138379,
+          "url": "https://github.com/akdamthevillan/EZYWORKS_RELEASE/releases/download/v3.1.1/EZYWORK-3.1.1-delta-001.zip"
+        }
+      ],
+      "removed": [],
+      "version": "3.1.1"
     }
   ],
   "schema": 2,
-  "signature": "j58t0CA9sLH08O-h3YdMOrQtHGamF9crdKSngad3u33TYJU0ich_zWLPhr7_mwfcK_l2HrQex5LlvhFJeFpPDQ",
+  "signature": "L7t-6MCvQsEgI_x6RLDmvHMq4r5F7n7Htp2btJqRshLFAAfaPPmiNi3mc4ybmKs7A4mc9TfBlo3Na3AL1RSLDg",
   "signing_key_id": "F19D5F361B144F87",
   "status": "active",
-  "version": "3.1.0"
+  "version": "3.1.1"
 }
