@@ -18,11 +18,11 @@
     "assets/update_public_key.pem",
     "authorization-service.json"
   ],
-  "build": 30101,
+  "build": 30102,
   "entry": "ezywork/gui.py",
   "files": {
     ".ezywork-install.json": {
-      "sha256": "e69f83b61091d0231447f53213ef419c2aa4d6e547f414dc5833bf78f6a01c21",
+      "sha256": "f9edf5b12d68865f10e680f7fe98135c55b19f26c9db885a4c266f43efe7c172",
       "size": 97
     },
     "EZYWORK_실행.bat": {
@@ -30,7 +30,7 @@
       "size": 310
     },
     "app-version.json": {
-      "sha256": "fc7660d91668247276cd5904a60fedb544545fa79a0530df7495afad44aec923",
+      "sha256": "d6c57549ba8ae8e7e2cd72b1a6da2b6c7a5be801f2d3cf6bbfd0c715968909a9",
       "size": 107
     },
     "assets/authorization_public_key.pem": {
@@ -130,8 +130,8 @@
       "size": 11556
     },
     "ezywork/authorization.py": {
-      "sha256": "bf4ad426de9ded08461c0c2137002c120bfc95aecc426b560f6d1770c96f8000",
-      "size": 29204
+      "sha256": "29cffe4ef3bd5e23b23ae7926b996658292f4d4cf6ab005c5ad1b348f179ede2",
+      "size": 34988
     },
     "ezywork/background_removal.py": {
       "sha256": "1931c2034f5addf9c82ec2a16b4da8b7eff335156659031841ab3a0fcaa42b8d",
@@ -154,8 +154,8 @@
       "size": 86
     },
     "ezywork/gui.py": {
-      "sha256": "76a97b9d05d53b7edc941d46977ff8bcc7e5fc9713bf4ca748370841d9ebc92d",
-      "size": 113867
+      "sha256": "d87ffebf190a9dc9cf5f75f76bfc910cd6b00d58c67c66e1bba598ef1d0fb709",
+      "size": 122692
     },
     "ezywork/imaging.py": {
       "sha256": "91e4e88be65bb8989b0cbcda5a3c9bd8a8dae08fec90b628f2297fb0dedff59c",
@@ -226,8 +226,8 @@
       "size": 49216
     },
     "launcher.py": {
-      "sha256": "818ff9ea44d57c785c7c6fb7bddd2fd4ef3582095b6082132315385d6199199e",
-      "size": 26649
+      "sha256": "ad14dbf161a58a88d915110ce6eb5cdae11a2bd6056eebc77d6429f36e84df74",
+      "size": 26859
     },
     "python/DLLs/_tkinter.pyd": {
       "sha256": "6f7bdc2f60a1795b58ec7015ec262d6b234aa8d0f022185de0f52bac4adab449",
@@ -12468,11 +12468,11 @@
   },
   "full_zip": {
     "github_upload": false,
-    "name": "EZYWORK-3.1.1-windows-x64.zip",
-    "sha256": "4a7edbf4bed53455f7e7f38522073441322c989638c7c77960c84adca83bfb1f",
-    "size": 232026338
+    "name": "EZYWORK-3.1.2-windows-x64.zip",
+    "sha256": "f3f58ec1ca4f3455e1a452124d362d3097da61dbc480a301400835ce4482b68a",
+    "size": 232029161
   },
-  "generated_at": "2026-08-26T09:03:17.263793+00:00",
+  "generated_at": "2026-08-26T10:22:05.850989+00:00",
   "message": "",
   "releases": [
     {
@@ -12878,11 +12878,47 @@
       ],
       "removed": [],
       "version": "3.1.1"
+    },
+    {
+      "build": 30102,
+      "from_build": 30101,
+      "packs": [
+        {
+          "members": {
+            ".ezywork-install.json": {
+              "sha256": "f9edf5b12d68865f10e680f7fe98135c55b19f26c9db885a4c266f43efe7c172",
+              "size": 97
+            },
+            "app-version.json": {
+              "sha256": "d6c57549ba8ae8e7e2cd72b1a6da2b6c7a5be801f2d3cf6bbfd0c715968909a9",
+              "size": 107
+            },
+            "ezywork/authorization.py": {
+              "sha256": "29cffe4ef3bd5e23b23ae7926b996658292f4d4cf6ab005c5ad1b348f179ede2",
+              "size": 34988
+            },
+            "ezywork/gui.py": {
+              "sha256": "d87ffebf190a9dc9cf5f75f76bfc910cd6b00d58c67c66e1bba598ef1d0fb709",
+              "size": 122692
+            },
+            "launcher.py": {
+              "sha256": "ad14dbf161a58a88d915110ce6eb5cdae11a2bd6056eebc77d6429f36e84df74",
+              "size": 26859
+            }
+          },
+          "name": "EZYWORK-3.1.2-delta-001.zip",
+          "sha256": "5bd671e88f5d4d342ea7156cc9c4e33c59e465f223a2dac8d80393b67e258587",
+          "size": 47904,
+          "url": "https://github.com/akdamthevillan/EZYWORKS_RELEASE/releases/download/v3.1.2/EZYWORK-3.1.2-delta-001.zip"
+        }
+      ],
+      "removed": [],
+      "version": "3.1.2"
     }
   ],
   "schema": 2,
-  "signature": "L7t-6MCvQsEgI_x6RLDmvHMq4r5F7n7Htp2btJqRshLFAAfaPPmiNi3mc4ybmKs7A4mc9TfBlo3Na3AL1RSLDg",
+  "signature": "nFCuc-R98lTr2Ir2x7pvC72glKdo_3MR_af1MrhDqp7ekJtdqBIz48q8jtVMflpeuiBiO1OJ8-kJHe1jUODIDA",
   "signing_key_id": "F19D5F361B144F87",
   "status": "active",
-  "version": "3.1.1"
+  "version": "3.1.2"
 }
