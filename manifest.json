@@ -18,11 +18,11 @@
     "assets/update_public_key.pem",
     "authorization-service.json"
   ],
-  "build": 30401,
+  "build": 30402,
   "entry": "ezywork/gui.py",
   "files": {
     ".ezywork-install.json": {
-      "sha256": "9a88a99e8f885868c0bcafa111e16665fbd39cfda399d7c3139937d69605c4a6",
+      "sha256": "b962052cb75d266a73260b7bce5cc9605917d301de011e9248fe51f0720682fc",
       "size": 97
     },
     "EZYWORK_실행.bat": {
@@ -30,7 +30,7 @@
       "size": 310
     },
     "app-version.json": {
-      "sha256": "b47ac3739a94cde63926640308fc114a3809ab28adf01fe354860ef3e7ea9c07",
+      "sha256": "54c03aa5ee0efef7a38bf76302d4418542cc9cda1ad334fbb2f7edb1fd2ae8ea",
       "size": 107
     },
     "assets/authorization_public_key.pem": {
@@ -90,8 +90,8 @@
       "size": 1614
     },
     "ezywork/adapters/eider.py": {
-      "sha256": "731408c501395a00ed5b181453c0f084a32ec38022ccab39131b5738e71c1438",
-      "size": 33556
+      "sha256": "fd70e2352353c5b45578edd4b1af2318b639c7e75379cd3cbc1a9cb4c60ab877",
+      "size": 33667
     },
     "ezywork/adapters/fjallraven.py": {
       "sha256": "d1bd0f85697b13454a2274e96abc88e37597b25130ae4a0b95f002fe9611d666",
@@ -122,8 +122,8 @@
       "size": 6755
     },
     "ezywork/adapters/sourced.py": {
-      "sha256": "700e0b24e4c946be3b6ec397e5378b11a8541c2c171128ca87a9619dc902c93b",
-      "size": 11556
+      "sha256": "dbfb9402282e19d43552050b6ebafa44a6deb2fe01481fbb8c8abedca9864ee2",
+      "size": 11596
     },
     "ezywork/authorization.py": {
       "sha256": "85caeec833f75b7c64a8199212b1d4badf10ccbb89be5efb4f54c49895593b3a",
@@ -218,12 +218,12 @@
       "size": 2777
     },
     "ezywork/marketplaces/lotteon.py": {
-      "sha256": "5f8870479910d1d83ee36026dd8a1761a93e10be0280eaa2ccc4de2401139edb",
-      "size": 22886
+      "sha256": "525949c37dccfd05fd3811e5a10266bc9186840afd292c10aa081bea3325b113",
+      "size": 25200
     },
     "ezywork/marketplaces/musinsa.py": {
-      "sha256": "34828808eff60d168cb584ab54c1bbfbd15b7f674e2bb73e7fdc1359425a36cb",
-      "size": 18732
+      "sha256": "e13a08cd9b3240ad4852bc4529d1dac0c20b67ceb344f0f8ab205b015ff1ab76",
+      "size": 18789
     },
     "ezywork/marketplaces/registry.py": {
       "sha256": "23abd6cfe4d7da416bd9cb9fa4fa60325793b4b1148b645e8e8b31403c326d09",
@@ -246,8 +246,8 @@
       "size": 46619
     },
     "ezywork/source_data.py": {
-      "sha256": "fe0905195e37f1b9a2cd8e687b8f273dde27ea3a0ab640a3682bd53efdd50d97",
-      "size": 3137
+      "sha256": "3a65073c8f86ae42130ee46221a93411e8ae754cb785dab257aee45153830075",
+      "size": 4246
     },
     "ezywork/source_options.py": {
       "sha256": "7721e057d8ce76e8171af03a962876e96813bcee42a069a8b191369c0dab4714",
@@ -12512,11 +12512,11 @@
   },
   "full_zip": {
     "github_upload": false,
-    "name": "EZYWORK-3.4.1-windows-x64.zip",
-    "sha256": "79008abfdd591470420ed29589f35a7a221892dced7af02ae13c70a6e52e4dac",
-    "size": 232049951
+    "name": "EZYWORK-3.4.2-windows-x64.zip",
+    "sha256": "a66adb7fe31fb8a29da6be1d77c09b7a87469176c6ab37e24c8bf068d2ce6010",
+    "size": 232051079
   },
-  "generated_at": "2026-08-30T09:13:35.185487+00:00",
+  "generated_at": "2026-08-30T10:45:38.003665+00:00",
   "message": "",
   "releases": [
     {
@@ -13472,11 +13472,55 @@
       ],
       "removed": [],
       "version": "3.4.1"
+    },
+    {
+      "build": 30402,
+      "from_build": 30401,
+      "packs": [
+        {
+          "members": {
+            ".ezywork-install.json": {
+              "sha256": "b962052cb75d266a73260b7bce5cc9605917d301de011e9248fe51f0720682fc",
+              "size": 97
+            },
+            "app-version.json": {
+              "sha256": "54c03aa5ee0efef7a38bf76302d4418542cc9cda1ad334fbb2f7edb1fd2ae8ea",
+              "size": 107
+            },
+            "ezywork/adapters/eider.py": {
+              "sha256": "fd70e2352353c5b45578edd4b1af2318b639c7e75379cd3cbc1a9cb4c60ab877",
+              "size": 33667
+            },
+            "ezywork/adapters/sourced.py": {
+              "sha256": "dbfb9402282e19d43552050b6ebafa44a6deb2fe01481fbb8c8abedca9864ee2",
+              "size": 11596
+            },
+            "ezywork/marketplaces/lotteon.py": {
+              "sha256": "525949c37dccfd05fd3811e5a10266bc9186840afd292c10aa081bea3325b113",
+              "size": 25200
+            },
+            "ezywork/marketplaces/musinsa.py": {
+              "sha256": "e13a08cd9b3240ad4852bc4529d1dac0c20b67ceb344f0f8ab205b015ff1ab76",
+              "size": 18789
+            },
+            "ezywork/source_data.py": {
+              "sha256": "3a65073c8f86ae42130ee46221a93411e8ae754cb785dab257aee45153830075",
+              "size": 4246
+            }
+          },
+          "name": "EZYWORK-3.4.2-delta-001.zip",
+          "sha256": "112be3a87328321604d2c5908848ad2d41f1768ead3747a9b24be6a36ae5365a",
+          "size": 24998,
+          "url": "https://github.com/akdamthevillan/EZYWORKS_RELEASE/releases/download/v3.4.2/EZYWORK-3.4.2-delta-001.zip"
+        }
+      ],
+      "removed": [],
+      "version": "3.4.2"
     }
   ],
   "schema": 2,
-  "signature": "kkoWvBP5i3Tg8PXV_M6pptaGc_NFX_9F5o4HfwNmWHuPHalb4DPbK9NQU-YvdAClpl5RAObc1CoHqNOII4mrAQ",
+  "signature": "oerYjISTsCrY78VVfqAkyphVitZFYXsa0JTG9slA16QAPm0dx_EnY8qIlDR8bf6LsRna730yzZAeYH-oiIKiAg",
   "signing_key_id": "F19D5F361B144F87",
   "status": "active",
-  "version": "3.4.1"
+  "version": "3.4.2"
 }
