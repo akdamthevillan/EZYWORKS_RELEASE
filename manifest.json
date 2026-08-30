@@ -18,11 +18,11 @@
     "assets/update_public_key.pem",
     "authorization-service.json"
   ],
-  "build": 30402,
+  "build": 30403,
   "entry": "ezywork/gui.py",
   "files": {
     ".ezywork-install.json": {
-      "sha256": "b962052cb75d266a73260b7bce5cc9605917d301de011e9248fe51f0720682fc",
+      "sha256": "9063a1f0ae60a6c1033a295164559b120cc416de374d707afa884c83a1d83318",
       "size": 97
     },
     "EZYWORK_실행.bat": {
@@ -30,7 +30,7 @@
       "size": 310
     },
     "app-version.json": {
-      "sha256": "54c03aa5ee0efef7a38bf76302d4418542cc9cda1ad334fbb2f7edb1fd2ae8ea",
+      "sha256": "02b44149d6b66e350d570601e087c5f50b732e624c62d7d5d94427f49d184aed",
       "size": 107
     },
     "assets/authorization_public_key.pem": {
@@ -218,8 +218,8 @@
       "size": 2777
     },
     "ezywork/marketplaces/lotteon.py": {
-      "sha256": "525949c37dccfd05fd3811e5a10266bc9186840afd292c10aa081bea3325b113",
-      "size": 25200
+      "sha256": "ca9dbb9529c354d3f07862882a31683069621320ae2852360f433b75906bf2b1",
+      "size": 25444
     },
     "ezywork/marketplaces/musinsa.py": {
       "sha256": "e13a08cd9b3240ad4852bc4529d1dac0c20b67ceb344f0f8ab205b015ff1ab76",
@@ -238,8 +238,8 @@
       "size": 5566
     },
     "ezywork/pipeline.py": {
-      "sha256": "ce5edb0d46ec1f8d90edce4770608461fdc69f237f000d983464e878e9b4dcd0",
-      "size": 41833
+      "sha256": "79a1c4df5b4435ab2a8a937f0dd8e7d73f343f17e6809c19b3f9844527f0f764",
+      "size": 43542
     },
     "ezywork/rendering.py": {
       "sha256": "4bf19fac33e483923451afb032e98b27927732f6be2eaa52a839874df7bca8e8",
@@ -12512,11 +12512,11 @@
   },
   "full_zip": {
     "github_upload": false,
-    "name": "EZYWORK-3.4.2-windows-x64.zip",
-    "sha256": "a66adb7fe31fb8a29da6be1d77c09b7a87469176c6ab37e24c8bf068d2ce6010",
-    "size": 232051079
+    "name": "EZYWORK-3.4.3-windows-x64.zip",
+    "sha256": "0c34766be279bc86112b5d8087310d023408f8b7fb07c00652d7c05e0b4fa7f5",
+    "size": 232051489
   },
-  "generated_at": "2026-08-30T10:45:38.003665+00:00",
+  "generated_at": "2026-08-30T10:54:59.518945+00:00",
   "message": "",
   "releases": [
     {
@@ -13516,11 +13516,43 @@
       ],
       "removed": [],
       "version": "3.4.2"
+    },
+    {
+      "build": 30403,
+      "from_build": 30402,
+      "packs": [
+        {
+          "members": {
+            ".ezywork-install.json": {
+              "sha256": "9063a1f0ae60a6c1033a295164559b120cc416de374d707afa884c83a1d83318",
+              "size": 97
+            },
+            "app-version.json": {
+              "sha256": "02b44149d6b66e350d570601e087c5f50b732e624c62d7d5d94427f49d184aed",
+              "size": 107
+            },
+            "ezywork/marketplaces/lotteon.py": {
+              "sha256": "ca9dbb9529c354d3f07862882a31683069621320ae2852360f433b75906bf2b1",
+              "size": 25444
+            },
+            "ezywork/pipeline.py": {
+              "sha256": "79a1c4df5b4435ab2a8a937f0dd8e7d73f343f17e6809c19b3f9844527f0f764",
+              "size": 43542
+            }
+          },
+          "name": "EZYWORK-3.4.3-delta-001.zip",
+          "sha256": "60e8ecffc70c785c69b90a3dec0b478735d69a801078299e12621a8ab31d2cde",
+          "size": 18670,
+          "url": "https://github.com/akdamthevillan/EZYWORKS_RELEASE/releases/download/v3.4.3/EZYWORK-3.4.3-delta-001.zip"
+        }
+      ],
+      "removed": [],
+      "version": "3.4.3"
     }
   ],
   "schema": 2,
-  "signature": "oerYjISTsCrY78VVfqAkyphVitZFYXsa0JTG9slA16QAPm0dx_EnY8qIlDR8bf6LsRna730yzZAeYH-oiIKiAg",
+  "signature": "bSjkVo5XUUwuvddfqv9NKLZ1fu8dh05A3_Ppq_lMIrMVbAgGYBVONYuYatdlSI4UIMJP1MppwqKI87t4kep1DA",
   "signing_key_id": "F19D5F361B144F87",
   "status": "active",
-  "version": "3.4.2"
+  "version": "3.4.3"
 }
